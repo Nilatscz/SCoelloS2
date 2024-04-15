@@ -8,7 +8,7 @@
             Padding="30,0"
             Spacing="25">
             <Image
-                Source="dotnet_bot.png"
+                Source="uisrael.png"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
@@ -27,7 +27,7 @@
                                
                 />
             <Border Stroke="Yellow">
-                <Picker x:Name="pkEstudiantes" Title="Notas">
+                <Picker x:Name="pkEstudiantes" Title="Elegir Estudiante">
                     <Picker.Items>
                         <x:String>Stalin</x:String>
                         <x:String>Francisco</x:String>
