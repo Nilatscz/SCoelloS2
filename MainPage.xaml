@@ -13,50 +13,11 @@
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
-            <Label
-                Text="Revision de promedio"
-               TextColor="Blue"
-                FontSize="Medium"
-                VerticalOptions="Center"
-                HorizontalTextAlignment="Center"                            
-                />
-
-            <Label
-                Text="Estudiantes"
-                VerticalOptions="Center"
-                               
-                />
-            <Border Stroke="Yellow">
-                <Picker x:Name="pkEstudiantes" Title="Elegir Estudiante">
-                    <Picker.Items>
-                        <x:String>Stalin</x:String>
-                        <x:String>Francisco</x:String>
-                        <x:String>Coello</x:String>
-                        <x:String>Zambrano</x:String>
-                        <x:String>Nilats</x:String>
-                    </Picker.Items>
-                </Picker>
-            </Border>
+           
+           
             
-            <Entry x:Name="TxtSegui1"
-                   Placeholder="Nota seguimiento 1"
-                   MaxLength="2"/>
-            <Entry x:Name="TxtExamen1"
-                   Placeholder="Nota Examen 1"
-                   MaxLength="2"/>
-            <Entry x:Name="TxtSegui2"
-                   Placeholder="Nota seguimiento 2"
-                   MaxLength="2"/>
-            <Entry x:Name="TxtExamen2"
-                   Placeholder="Nota Examen 2"
-                   MaxLength="2"/>
-            <DatePicker x:Name="dpFecha"
-             Format="MM/dd/yyy"/>
-            <Button
-                x:Name="btnCalcular"
-                Text="Calculo del promedio"
-                Clicked="OnCounterClicked"
-                />
+            
+            
            
 
 

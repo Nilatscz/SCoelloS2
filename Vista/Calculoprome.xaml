@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SCoelloS2.Vista.Calculoprome"
+             Title="Calculo promedios">
+    <VerticalStackLayout
+    Padding="30,0"
+    Spacing="25">
+        <Image
+        Source="uisrael.png"
+        HeightRequest="90"
+        Aspect="AspectFit"
+        SemanticProperties.Description="dot net bot in a race car number eight" />
+
+        <Label
+        x:Name="LblUsuario"
+           HorizontalTextAlignment="End" 
+        FontSize="14"
+               
+        />
+        <Label
+        Text="Revision de promedio"
+       TextColor="Blue"
+        FontSize="Medium"
+        VerticalOptions="Center"
+        HorizontalTextAlignment="Center"                            
+        />
+
+        <Label
+        Text="Estudiantes"
+        VerticalOptions="Center"
+                       
+        />
+        <Border Stroke="Yellow">
+            <Picker x:Name="pkEstudiantes" Title="Elegir Estudiante">
+                <Picker.Items>
+                    <x:String>Stalin</x:String>
+                    <x:String>Francisco</x:String>
+                    <x:String>Coello</x:String>
+                    <x:String>Zambrano</x:String>
+                    <x:String>Nilats</x:String>
+                </Picker.Items>
+            </Picker>
+        </Border>
+
+        <Entry x:Name="TxtSegui1"
+           Placeholder="Nota seguimiento 1"
+           MaxLength="2"/>
+        <Entry x:Name="TxtExamen1"
+           Placeholder="Nota Examen 1"
+           MaxLength="2"/>
+        <Entry x:Name="TxtSegui2"
+           Placeholder="Nota seguimiento 2"
+           MaxLength="2"/>
+        <Entry x:Name="TxtExamen2"
+           Placeholder="Nota Examen 2"
+           MaxLength="2"/>
+        <DatePicker x:Name="dpFecha"
+     Format="MM/dd/yyy"/>
+        <Button
+        x:Name="btnCalcular"
+        Text="Calculo del promedio"
+        Clicked="OnCounterClicked"
+        />
+
+
+    </VerticalStackLayout>
+</ContentPage>
